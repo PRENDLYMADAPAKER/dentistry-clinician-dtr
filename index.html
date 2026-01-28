@@ -826,7 +826,6 @@ db.ref('users/' + user.uid + '/dtr/' + today)
   };
   </script>
 
-
 <style>
   body {
     display: flex;
@@ -847,10 +846,22 @@ db.ref('users/' + user.uid + '/dtr/' + today)
     margin-top: auto;
   }
 
-  .page-footer strong:first-child {
+  .page-footer .official {
+    display: block;
     font-size: 14px;
-    color: #4c1d95;
-    font-weight: 700;
+    font-weight: 800;
+    color: #2c0a34;
+    opacity: 1;
+    margin-bottom: 2px;
+  }
+
+  .page-footer .authorized {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2c0a34;
+    opacity: 1;
+    margin-bottom: 10px;
   }
 </style>
 
